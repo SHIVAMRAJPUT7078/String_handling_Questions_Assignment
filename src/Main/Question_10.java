@@ -7,17 +7,17 @@ class InputString{
         Scanner scanner = new Scanner(System.in);
         char ch = scanner.nextLine().charAt(0);
         String string = scanner.nextLine().trim();
-        Question_11 question_1 = new Question_11(ch,string);
+        Question_10 question_1 = new Question_10(ch,string);
         System.out.println(question_1.getIndex());
 
     }
 }
 
-public class Question_11 {
+public class Question_10 {
    private char ch;
    private String inputString;
 
-    public Question_11(char ch, String inputString) {
+    public Question_10(char ch, String inputString) {
         this.ch = ch;
         this.inputString = inputString;
     }
